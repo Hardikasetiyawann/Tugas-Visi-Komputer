@@ -40,7 +40,7 @@ vehicle-detection-yolov3-opencv/
 ├── coco.names
 ├── requirements.txt
 ├── README.md
-└── yolov3.weights   # downloaded separately (not included in repository)
+└── yolov3.weights 
 ```
 
 ---
@@ -147,5 +147,3 @@ Informatics Student | Computer Vision & Machine Learning
 ## 📄 License
 
 This project is intended for **educational purposes only**.
-
-```
