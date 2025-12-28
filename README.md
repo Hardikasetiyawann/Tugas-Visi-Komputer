@@ -1,4 +1,5 @@
-```md
+
+````md
 # Vehicle Detection and Counting using YOLOv3 and OpenCV
 
 This project implements a **real-time vehicle detection and counting system**
@@ -6,7 +7,7 @@ using **YOLOv3 (You Only Look Once)** and **OpenCV**.
 The system detects vehicles from a webcam or video input and displays
 the total number of detected vehicles in real time.
 
-The project is developed as part of a **Computer Vision / Machine Learning** task
+This project is developed as part of a **Computer Vision / Machine Learning** task
 and demonstrates the application of deep learning for object detection.
 
 ---
@@ -34,16 +35,14 @@ and demonstrates the application of deep learning for object detection.
 ---
 
 ## 📂 Project Structure
-```
-
+```text
 vehicle-detection-yolov3-opencv/
 ├── main.py
 ├── yolov3.cfg
-├── yolov3.weights
 ├── coco.names
 ├── requirements.txt
-└── README.md
-
+├── README.md
+└── yolov3.weights   # downloaded separately (not included in repository)
 ````
 
 ---
@@ -51,10 +50,11 @@ vehicle-detection-yolov3-opencv/
 ## ⚙️ Installation
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/vehicle-detection-yolov3-opencv.git
 cd vehicle-detection-yolov3-opencv
-````
+```
 
 ### 2. Create and activate virtual environment
 
@@ -86,11 +86,11 @@ pip install -r requirements.txt
 
 Download the following files and place them in the project directory:
 
-* `yolov3.weights`
+* **yolov3.weights**
   [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
-* `yolov3.cfg`
+* **yolov3.cfg**
   [https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
-* `coco.names`
+* **coco.names**
   [https://github.com/pjreddie/darknet/blob/master/data/coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
 
 ---
@@ -127,7 +127,7 @@ cap = cv2.VideoCapture("video.mp4")
 cap = cv2.VideoCapture(1)
 ```
 
-* This project uses a **pre-trained YOLOv3 model** and does not require training
+* This project uses a **pre-trained YOLOv3 model** and does not require model training
 
 ---
 
@@ -148,4 +148,6 @@ Informatics Student | Computer Vision & Machine Learning
 
 ## 📄 License
 
-This project is for **educational purposes only**.
+This project is intended for **educational purposes only**.
+
+```
