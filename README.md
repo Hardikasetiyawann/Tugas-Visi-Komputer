@@ -35,7 +35,7 @@ and demonstrates the application of deep learning for object detection.
 ---
 
 ## 📂 Project Structure
-```text
+```bash
 vehicle-detection-yolov3-opencv/
 ├── main.py
 ├── yolov3.cfg
@@ -43,7 +43,7 @@ vehicle-detection-yolov3-opencv/
 ├── requirements.txt
 ├── README.md
 └── yolov3.weights   # downloaded separately (not included in repository)
-````
+```
 
 ---
 
@@ -52,7 +52,7 @@ vehicle-detection-yolov3-opencv/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/vehicle-detection-yolov3-opencv.git
+git clone https://github.com/Hardikasetiyawann/vehicle-detection-yolov3-opencv.git
 cd vehicle-detection-yolov3-opencv
 ```
 
@@ -141,7 +141,7 @@ cap = cv2.VideoCapture(1)
 
 ## 👤 Author
 
-**Your Name**
+**Hardika Setiyawan**
 Informatics Student | Computer Vision & Machine Learning
 
 ---
